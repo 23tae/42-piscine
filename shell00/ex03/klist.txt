@@ -1,0 +1,5 @@
+Credentials cache: API:42065D53-6F4B-42F5-9E36-93B9112637C5
+        Principal: taehooki@42SEOUL.KR
+
+  Issued                Expires             Flags    Principal
+Jan  3 16:37:53 2022  Jan  4 02:37:53 2022  FPRIA  krbtgt/42SEOUL.KR@42SEOUL.KR
