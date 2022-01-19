@@ -13,9 +13,9 @@
 
 void ft_swap(int *a, int *b)
 {
-    int tmp;//int형의 값을 저장하기 위해
+    int tmp;
 
-    tmp = *a;//a의 값을 불러와서 tmp에 저장함
-    *a = *b;//a의 포인터에 b의 값을 저장함
+    tmp = *a;
+    *a = *b;
     *b = tmp;
 }
