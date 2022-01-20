@@ -6,14 +6,15 @@
 /*   By: taehooki <taehooki@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/17 10:04:57 by taehooki          #+#    #+#             */
-/*   Updated: 2022/01/17 10:04:59 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/01/20 16:30:13 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+void	ft_ultimate_div_mod(int *a, int *b)
+{
+	int	tmp;
 
-void ft_ultimate_div_mod(int *a, int *b)
-    {
-        int tmp;
-        tmp = *a / *b;
-        *b = *a % *b;
-    }
+	tmp = *a / *b;
+	*b = *a % *b;
+	*a = tmp;
+}

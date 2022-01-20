@@ -6,16 +6,15 @@
 /*   By: taehooki <taehooki@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/17 10:04:24 by taehooki          #+#    #+#             */
-/*   Updated: 2022/01/17 10:04:27 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/01/20 16:27:17 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-void ft_swap(int *a, int *b)
+void	ft_swap(int *a, int *b)
 {
-    int tmp;
+	int	tmp;
 
-    tmp = *a;
-    *a = *b;
-    *b = tmp;
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
 }

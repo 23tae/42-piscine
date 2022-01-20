@@ -6,26 +6,19 @@
 /*   By: taehooki <taehooki@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/17 10:05:27 by taehooki          #+#    #+#             */
-/*   Updated: 2022/01/17 10:05:29 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/01/20 16:58:09 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
-
-int ft_strlen(char *str)
+int	ft_strlen(char *str)
 {
-    int count;
-    
-    count = 0;
-    while(*str != '\0')
-    {
-        count ++;
-        str ++;
-    }
-    return (count);
-}
+	int	count;
 
-int main(void)
-{
-    ft_strlen("hello");
+	count = 0;
+	while (*str != '\0')
+	{
+		count ++;
+		str ++;
+	}
+	return (count);
 }

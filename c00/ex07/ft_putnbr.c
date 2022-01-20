@@ -6,7 +6,7 @@
 /*   By: taehooki <taehooki@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/15 11:42:26 by taehooki          #+#    #+#             */
-/*   Updated: 2022/01/15 11:54:15 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/01/20 13:37:23 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,10 +38,4 @@ void	ft_putnbr(int nb)
 			ft_putnbr(nb);
 		}
 	}
-}
-
-int	main(void)
-{
-	ft_putnbr(247);
-	return (0);
-}
+}	

@@ -6,12 +6,11 @@
 /*   By: taehooki <taehooki@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/17 10:03:30 by taehooki          #+#    #+#             */
-/*   Updated: 2022/01/17 10:03:34 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/01/20 16:25:10 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-void ft_ft(int *nbr)
+void	ft_ft(int *nbr)
 {
-    *nbr = 42;
+	*nbr = 42;
 }

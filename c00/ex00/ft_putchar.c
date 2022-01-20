@@ -6,15 +6,15 @@
 /*   By: taehooki <taehooki@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/12 17:55:47 by taehooki          #+#    #+#             */
-/*   Updated: 2022/01/12 17:55:57 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/01/20 09:00:01 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void ft_putchar(char c);
+void	ft_putchar(char c);
 
-void ft_putchar(char c)
+void	ft_putchar(char c)
 {
-    write(1, &c, 1);
+	write(1, &c, 1);
 }

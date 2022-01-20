@@ -6,12 +6,11 @@
 /*   By: taehooki <taehooki@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/17 10:04:02 by taehooki          #+#    #+#             */
-/*   Updated: 2022/01/17 10:04:04 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/01/20 20:16:19 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
-void ft_ultimate_ft(int *********nbr)
+void	ft_ultimate_ft(int *********nbr)
 {
-    *********nbr;
+	*********nbr = 42;
 }

@@ -6,26 +6,13 @@
 /*   By: taehooki <taehooki@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/12 18:07:55 by taehooki          #+#    #+#             */
-/*   Updated: 2022/01/12 18:07:56 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/01/20 13:27:51 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-void    ft_print_combn(int n)
-{
-    char    a;
-    a = 0;
+#include <unistd.h>
 
-    for(int i=0; i<n; i++)
-    {
-        while(a <= 10-n)
-        {
-            write(1, &a, 1);
-            a++;
-        }
-    }
+void	ft_print_combn(int a)
+{
+	write(1, "Hello, world!", 13);
 }
-
-int main(void)
-{
-    ft_print_combn(2);
-} 
