@@ -6,8 +6,24 @@
 /*   By: taehooki <taehooki@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/24 18:45:06 by taehooki          #+#    #+#             */
-/*   Updated: 2022/01/24 18:45:08 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/01/26 17:06:29 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_is_prime(int	nb)
+{
+	int	k;
 
+	k = nb;
+	if (nb > 1)
+	{
+		while (-- k > 1)
+		{
+			if (!(nb % k))
+				return (0);
+		}
+		return (1);
+	}
+	else
+		return (0);
+}

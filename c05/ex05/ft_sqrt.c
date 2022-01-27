@@ -6,8 +6,20 @@
 /*   By: taehooki <taehooki@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/24 18:45:01 by taehooki          #+#    #+#             */
-/*   Updated: 2022/01/24 18:45:02 by taehooki         ###   ########.fr       */
+/*   Updated: 2022/01/26 17:05:12 by taehooki         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+int	ft_sqrt(int	nb)
+{
+	long long	i;
 
+	i = 1;
+	while (i * i <= nb)
+	{
+		if (i * i == nb)
+			return (i);
+		i ++;
+	}
+	return (0);
+}
